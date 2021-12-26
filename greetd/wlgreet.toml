@@ -1,0 +1,33 @@
+command = "sway"
+outputMode = "all"
+scale = 1
+
+[background]
+red = 0.156
+green = 0.173
+blue = 0.204
+opacity = 1.0
+
+[headline]
+red = 0.863
+green = 0.875
+blue = 0.894
+opacity = 1.0
+
+[prompt]
+red = 0.863
+green = 0.875
+blue = 0.894
+opacity = 1.0
+
+[promptErr]
+red = 0.878
+green = 0.424
+blue = 0.459
+opacity = 1.0
+
+[border]
+red = 0.0
+green = 0.0
+blue = 0.0
+opacity = 0.0

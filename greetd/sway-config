@@ -1,0 +1,20 @@
+# Configuration for i3
+
+input * {
+    xkb_layout "us"
+    xkb_variant "colemak"
+}
+
+set $mod Mod4
+
+exec "wlgreet --config /etc/greetd/wlgreet.toml; swaymsg exit"
+
+output eDP-1 bg /usr/share/pixmaps/background.jpg fill
+
+bindsym $mod+BackSpace exec swaynag \
+-t warning \
+-m 'What do you want to do?' \
+-b 'Poweroff' 'systemctl poweroff' \
+-b 'Reboot' 'systemctl reboot'
+ 
+ include /etc/sway/config.d/*
