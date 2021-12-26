@@ -10,6 +10,7 @@ Some of the files expect the repository to be cloned in `~/.synced_config`, so I
 With the repository cloned, now you can activate the configuration for different applications
 ```bash
 ln -sf ~/.synced_config/sway.conf ~/.config/sway/config # Sway window manager
+ln -sf ~/.synced_config/vimrc ~/.vimrc # Vim editor
 ```
 
 ## Inspiration
